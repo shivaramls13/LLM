@@ -1,0 +1,11 @@
+ollama
+fastapi
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+uvicorn 
+python-dotenv 
+mlflow 
+optuna 
+prometheus-client
