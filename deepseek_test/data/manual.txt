@@ -1,0 +1,229 @@
+PRODUCT MANUAL: XYZ-5000 NETWORK ROUTER
+Version 2.3 - March 2025
+==================================================
+
+TABLE OF CONTENTS
+1. Product Overview
+2. Technical Specifications
+3. Installation Guide
+4. Configuration Procedures
+5. Troubleshooting
+6. Maintenance and Updates
+7. Warranty Information
+
+==================================================
+1. PRODUCT OVERVIEW
+==================================================
+
+The XYZ-5000 is an enterprise-grade network router designed for high-traffic environments. It features advanced security protocols, Quality of Service (QoS) management, and supports up to 500 simultaneous connections.
+
+Key Features:
+- Dual-band Wi-Fi 6 support (2.4GHz and 5GHz)
+- Built-in firewall with intrusion detection
+- 4 Gigabit Ethernet ports
+- 1 USB 3.0 port for network storage
+- Cloud-based management interface
+
+==================================================
+2. TECHNICAL SPECIFICATIONS
+==================================================
+
+HARDWARE SPECIFICATIONS:
+Dimensions: 9.5" x 7.2" x 1.4"
+Weight: 1.8 lbs
+Power: 100-240V AC, 50-60Hz
+Power Consumption: 15W (typical), 25W (maximum)
+Operating Temperature: 32°F to 104°F (0°C to 40°C)
+Storage Temperature: -4°F to 140°F (-20°C to 60°C)
+Humidity: 10% to 85% non-condensing
+
+NETWORK SPECIFICATIONS:
+Wi-Fi Standards: IEEE 802.11a/b/g/n/ac/ax
+Wi-Fi Speed: Up to 3.2 Gbps combined
+Ethernet: 4 x Gigabit (10/100/1000 Mbps)
+WAN: 1 x Gigabit (10/100/1000 Mbps)
+USB: 1 x USB 3.0
+
+SECURITY FEATURES:
+Firewall: SPI (Stateful Packet Inspection)
+VPN Support: IPSec, PPTP, L2TP
+Encryption: WPA3, WPA2-Enterprise, WPA2-Personal
+Access Control: MAC filtering, IP filtering
+
+==================================================
+3. INSTALLATION GUIDE
+==================================================
+
+PACKAGE CONTENTS:
+- XYZ-5000 Router
+- Power Adapter
+- Ethernet Cable
+- Quick Start Guide
+- Mounting Brackets
+
+INSTALLATION PROCEDURE:
+1. Unpack all items from the box and verify contents.
+2. Position the router in a central location, away from walls and metal objects.
+3. Connect the power adapter to the router and plug it into an electrical outlet.
+4. Wait for the power LED to turn solid green (approximately 60 seconds).
+5. Connect your modem to the WAN port on the back of the router using an Ethernet cable.
+6. Connect your computer to one of the LAN ports using an Ethernet cable OR connect wirelessly using the default SSID and password printed on the bottom of the router.
+7. Open a web browser and navigate to http://192.168.1.1
+8. Log in with the default credentials:
+   Username: admin
+   Password: admin123
+9. Follow the setup wizard to configure your internet connection.
+
+IF YOU ARE REPLACING AN EXISTING ROUTER:
+1. Document your current settings before disconnecting the old router.
+2. Turn off your modem before disconnecting.
+3. Disconnect the old router and connect the XYZ-5000 as described above.
+4. Turn on the modem first, then the router.
+
+MOUNTING INSTRUCTIONS (OPTIONAL):
+1. Select a location that is free from obstructions and near a power outlet.
+2. Using the mounting bracket as a template, mark the drill holes on the wall.
+3. Drill holes at the marked positions and insert the provided wall anchors.
+4. Attach the mounting bracket to the wall using the provided screws.
+5. Slide the router onto the mounting bracket until it clicks into place.
+
+==================================================
+4. CONFIGURATION PROCEDURES
+==================================================
+
+BASIC NETWORK SETUP:
+1. Access the router's web interface at http://192.168.1.1
+2. Navigate to "Network Settings" > "Basic Setup"
+3. Select your Internet Connection Type:
+   - If your ISP requires a login, select "PPPoE" and enter your username and password.
+   - If your ISP uses dynamic IP, select "DHCP".
+   - If your ISP assigned you a static IP, select "Static IP" and enter the IP details.
+4. Click "Apply" to save your settings.
+
+WIRELESS CONFIGURATION:
+1. Navigate to "Wireless Settings" > "Basic Settings"
+2. Configure the following settings:
+   - Network Name (SSID): Create a unique name for your network
+   - Security Mode: Select WPA2-Personal or WPA3 (recommended)
+   - Password: Create a strong password with at least 12 characters
+3. If you want to set up separate 2.4GHz and 5GHz networks, check "Enable Band Steering"
+4. Click "Apply" to save your settings.
+
+SETTING UP GUEST NETWORK:
+1. Navigate to "Wireless Settings" > "Guest Network"
+2. Toggle "Enable Guest Network" to ON
+3. Configure the guest network SSID and password
+4. Set guest access limitations if desired
+5. Click "Apply" to save your settings.
+
+CONFIGURING QoS (QUALITY OF SERVICE):
+1. Navigate to "Advanced Settings" > "QoS"
+2. Toggle "Enable QoS" to ON
+3. Select the QoS Type:
+   - If you want to prioritize by device, select "Device Priority"
+   - If you want to prioritize by application, select "Application Priority"
+   - If you want to prioritize by service type, select "Service Priority"
+4. Configure the priority rules according to your needs
+5. Click "Apply" to save your settings.
+
+==================================================
+5. TROUBLESHOOTING
+==================================================
+
+UNABLE TO ACCESS THE INTERNET:
+1. Check if the power LED is solid green. If not, the router may not be powered properly.
+2. Verify that the WAN LED is lit. If not, check the connection between your modem and router.
+3. Ensure your modem is online and functioning properly.
+4. Try restarting both your modem and router:
+   a. Turn off the router and modem.
+   b. Wait 30 seconds.
+   c. Turn on the modem and wait for it to fully initialize (about 2 minutes).
+   d. Turn on the router and wait for it to fully initialize (about 1 minute).
+5. Check your internet connection settings in the router's web interface.
+
+IF THE INTERNET CONNECTION IS SLOW:
+1. Check your current bandwidth using an online speed test.
+2. Connect a computer directly to the modem and run the speed test again to determine if the issue is with the router.
+3. If the issue persists with a direct connection, contact your ISP.
+4. If the direct connection is faster, try the following:
+   a. Position the router in a more central location.
+   b. Reduce interference by moving the router away from electronic devices.
+   c. Switch to a less congested Wi-Fi channel in the router settings.
+   d. Update the router's firmware to the latest version.
+
+FORGOT LOGIN CREDENTIALS:
+1. If you've forgotten your custom login credentials, perform a factory reset:
+   a. Locate the Reset button on the back of the router.
+   b. Press and hold the Reset button for 10 seconds.
+   c. Release the button when all LEDs flash simultaneously.
+   d. The router will restart with factory default settings.
+   e. Use the default login credentials mentioned in the Installation section.
+
+FIRMWARE UPDATE FAILURES:
+1. If a firmware update fails, DO NOT power off the router.
+2. Wait 10 minutes to see if the router recovers automatically.
+3. If the router remains unresponsive, perform the following recovery procedure:
+   a. Unplug the power adapter.
+   b. Press and hold the Reset button.
+   c. While holding the Reset button, plug the power adapter back in.
+   d. Continue holding the Reset button for 30 seconds.
+   e. Release the button and wait for the router to initialize.
+   f. Attempt the firmware update again using a wired connection.
+
+==================================================
+6. MAINTENANCE AND UPDATES
+==================================================
+
+FIRMWARE UPDATES:
+Regular firmware updates are essential for security and performance. To update your router's firmware:
+1. Navigate to "Administration" > "Firmware Update"
+2. Click "Check for Updates"
+3. If an update is available, click "Download and Install"
+4. Wait for the update to complete (do not power off the router during this process)
+5. The router will automatically reboot after the update
+
+RECOMMENDED MAINTENANCE SCHEDULE:
+- Check for firmware updates monthly
+- Back up your configuration settings quarterly
+- Change your router and Wi-Fi passwords every 6 months
+- Perform a full restart of your network equipment monthly
+- Clean router vents of dust as needed (unplug before cleaning)
+
+BACKING UP YOUR CONFIGURATION:
+1. Navigate to "Administration" > "Backup & Restore"
+2. Click "Back Up Configuration"
+3. Save the configuration file in a secure location
+4. To restore configuration:
+   a. Navigate to the same section
+   b. Click "Browse" and select your backup file
+   c. Click "Restore Configuration"
+
+==================================================
+7. WARRANTY INFORMATION
+==================================================
+
+The XYZ-5000 comes with a standard 2-year limited hardware warranty from the date of purchase.
+
+WARRANTY COVERAGE:
+- Manufacturing defects in materials and workmanship
+- Hardware failures under normal use
+
+WARRANTY EXCLUSIONS:
+- Physical damage from accidents or misuse
+- Water or liquid damage
+- Unauthorized modifications
+- Normal wear and tear
+- Products with altered or removed serial numbers
+
+TO OBTAIN WARRANTY SERVICE:
+1. Contact customer support at support@xyz-company.com or call 1-800-555-0199
+2. Provide proof of purchase and the product serial number
+3. Describe the issue in detail
+4. Follow the troubleshooting steps provided by support
+5. If necessary, obtain a Return Merchandise Authorization (RMA) number
+6. Ship the product in its original packaging with the RMA number clearly marked
+
+Extended warranty plans are available for purchase within 30 days of the original purchase date.
+
+==================================================
+END OF DOCUMENT

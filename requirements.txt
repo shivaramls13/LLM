@@ -9,3 +9,8 @@ python-dotenv
 mlflow 
 optuna 
 prometheus-client
+langchain
+langchain_community
+faiss-cpu 
+sentence-transformers
+langchain-huggingface
