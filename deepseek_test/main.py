@@ -1,12 +1,10 @@
 # main.py
-import os
 from pathlib import Path
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import uvicorn
 from app.chatbot import Chatbot
-from app.monitoring import start_monitoring_server
 import time
 
 # Initialize FastAPI

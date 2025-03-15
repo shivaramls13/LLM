@@ -1,6 +1,4 @@
 # terminal_rag.py
-
-import os
 from pathlib import Path
 import time
 from app.chatbot import Chatbot
